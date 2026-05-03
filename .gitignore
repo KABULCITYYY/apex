@@ -1,0 +1,20 @@
+# Build output
+dist/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Project specific
+gpuz_output.xml
+test_screenshots/
+test_report.txt
+test.csv
+debug.txt
+
+# Demo mode - don't expose this
+demo_mode.py
